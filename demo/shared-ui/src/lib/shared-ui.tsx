@@ -3,7 +3,7 @@
 
 export function DemoSharedUi() {
   return (
-    <div className={styles['container']}>
+    <div>
       <h1>Welcome to DemoSharedUi!</h1>
     </div>
   );
