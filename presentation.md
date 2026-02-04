@@ -32,3 +32,5 @@ Slide 7: Total Developer Velocity
 In the end, NX turns our monorepo from a burden into a high-performance engine. We stop fighting the build system and start shipping features. We have the consistency of generators, the enforcement of the graph, and the confidence that comes from knowing exactly what is affected by our changes. We’ve moved from a bike to a plane—and the sky is the limit.
 
 Visual Idea: A clean, high-speed jet taking off. The only text on the screen: "Ship Faster. Build Smarter."
+
+https://nx.dev/docs/_astro/task-graph-execution.BNawkWiA.svg
