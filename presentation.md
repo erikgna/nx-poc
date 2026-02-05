@@ -41,3 +41,24 @@ In the end, NX turns our monorepo from a burden into a high-performance engine. 
 Visual Idea: A clean, high-speed jet taking off. The only text on the screen: "Ship Faster. Build Smarter."
 
 https://nx.dev/docs/_astro/task-graph-execution.BNawkWiA.svg
+
+
+
+
+
+
+
+Trazer comparacao com outras tecs
+Trazer tradeoffs
+Cache and Pipeline Orchestration
+Quais linguagens NX suporta?
+
+Falar sobre conceitos e propostas do NX
+Mostrar codiog, atualizar, rodas os comandos e depois mostrar o que acontece por tras das pipelines
+3:30 slides and 1:30 code
+
+
+
+
+
+
