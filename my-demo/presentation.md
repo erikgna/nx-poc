@@ -1,10 +1,11 @@
 Slide 1: The Monorepo Tax (The Problem)
 
-We usually move to a monorepo for simplicity, but as we scale, we hit a wall called the "Monorepo Tax." It’s that moment when your codebase grows so large that your CI/CD pipeline becomes a bottleneck. You make a small CSS change in a shared library, and suddenly you're waiting 20 minutes for five unrelated applications to rebuild. We end up in "Dependency Hell," where we lose track of what affects what, and developers spend more time waiting for green checkmarks than writing code. To fix this, we don’t just need a place to put our folders; we need a system that actually understands the code inside them.
+We usually use a monorepo for simplicity, but as we scale, we hit a wall called the "Monorepo Tax." It’s that moment when your codebase grows so large that your CI/CD pipeline becomes a bottleneck. You make a small CSS change in a shared library, and suddenly you're waiting 20 minutes for five unrelated applications to rebuild. We end up in "Dependency Hell," where we lose track of what affects what, and developers spend more time waiting for green checkmarks than writing code. To fix this, we don’t just need a place to put our folders; we need a system that actually understands the code inside them.
 
 Slide 2: What is NX
 
-That system is NX. At its core, NX is a Build System with first-class monorepo support. It’s an open-source platform designed to manage workspaces of any size without the speed penalties we just discussed. Unlike simple task runners, NX is "smart." It doesn't just execute commands; it analyzes your entire workspace to optimize how work is done. It was built by ex-Googlers to bring "Google-scale" efficiency to the rest of us. But for NX to save us time, it first has to build a mental map of our world.
+That system is NX. At its core, NX is a Build System with first-class monorepo support. It’s an open-source platform designed to manage workspaces of any size without the speed penalties we just discussed. NX was created by Google engineers while building large Angular applications, originally as an opinionated toolkit for enterprise Angular monorepos. Over time, it evolved into a framework platform that supports React, Node.js, and many other technologies.
+Unlike simple task runners, NX is "smart." It doesn't just execute commands; it analyzes your entire workspace to optimize how the work is done. It brings practices like dependency graphs and advanced caching to development. But for NX to save us time, it first has to build a mental map of our application.
 
 Slide 3: The Polyglot Brain (The Concept)
 
