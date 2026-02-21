@@ -4,12 +4,12 @@ We usually use a monorepo for simplicity, but as we scale, we hit a wall called 
 
 Slide 2: What is NX
 
-That system is NX. At its core, NX is a Build System with first-class monorepo support. It’s an open-source platform designed to manage workspaces of any size without the speed penalties we just discussed. NX was created by Google engineers while building large Angular applications, originally as an opinionated toolkit for enterprise Angular monorepos. Over time, it evolved into a framework platform that supports React, Node.js, and many other technologies.
+That system is NX. At its core, NX is a Build System with first-class monorepo support. It’s an open-source platform designed to manage workspaces of any size without the speed penalties we just discussed. NX was created by Google engineers while building large Angular applications, originally as an optional toolkit for enterprise Angular monorepos. Over time, it evolved into a framework platform that is truly polyglot, it has native-feeling support for TypeScript, but through its plugin system, it treats Java (Maven/Gradle), Go, and C# as first-class citizens.
 Unlike simple task runners, NX is "smart." It doesn't just execute commands; it analyzes your entire workspace to optimize how the work is done. It brings practices like dependency graphs and advanced caching to development. But for NX to save us time, it first has to build a mental map of our application.
 
 Slide 3: The Polyglot Brain (The Concept)
 
-That mental map is called the Project Graph. While tools like NPM or Maven only see their own small worlds, NX uses a Rust-powered engine to scan your entire repo—regardless of language. It is truly polyglot: it has native-feeling support for TypeScript, but through its plugin system, it treats Java (Maven/Gradle), Go, and C# as first-class citizens. It maps every "import" and "dependency" into a Directed Acyclic Graph. Because it understands these relationships, it can act with surgical precision, knowing exactly which parts of the system are affected by a change and which are not.
+That mental map is called the Project Graph. It maps every "import" and "dependency" into a Directed Acyclic Graph. Because it understands these relationships, it can act with surgical precision, knowing exactly which parts of the system are affected by a change and which are not.
 
 Slide 4: Orchestration & Caching (The Proposal)
 
