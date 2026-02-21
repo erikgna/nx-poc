@@ -28,7 +28,7 @@ NX is a build system designed specifically for large monorepos.
 
 It was originally created by engineers at Google, while working on large Angular applications.
 
-But today it supports React, Node, Java, and more.
+But today it supports React, Node, Java, Maven, Gradle, and other ecosystems.
 
 The key idea is simple:
 
@@ -52,10 +52,6 @@ Who imports who.
 Who depends on what.
 What breaks if something changes.
 
-And it’s polyglot.
-
-Through plugins, it understands TypeScript, Maven, Gradle, and other ecosystems.
-
 Because NX understands the relationships, it can act with precision.
 
 If you change one library, it rebuilds only what’s affected.
@@ -66,7 +62,7 @@ Nothing less.
 
 ## Slide 4 — Orchestration & Caching
 
-Now it gets interesting.
+And now it gets interesting.
 
 Every task — build, test, lint — becomes a hash.
 
@@ -94,7 +90,7 @@ You stop paying the Monorepo Tax.
 
 ## Slide 5 — Trade-offs
 
-So where does NX fit?
+And where NX fits?
 
 If you want something lightweight and JS-only, Turborepo is a great starting point.
 
@@ -109,5 +105,4 @@ The trade-off?
 There’s a learning curve.
 You have to think in terms of dependency graphs and orchestration.
 
-But once you do —
-your monorepo scales without slowing you down.
+But once you do, your monorepo scales without slowing you down.
