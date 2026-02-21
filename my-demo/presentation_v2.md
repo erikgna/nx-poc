@@ -4,9 +4,7 @@ We adopt monorepos for simplicity.
 
 Shared code, single repository, easier collaboration.
 
-But as the system grows, something happens.
-
-CI becomes the bottleneck.
+But as the system grows, CI becomes the bottleneck.
 
 You change one small file in a shared librar and suddenly five applications rebuild.
 
@@ -20,9 +18,15 @@ We don’t just need folders.
 
 We need a system that understands our codebase.
 
+Because scaling a monorepo isn’t about adding more CI machines.
+It’s about reducing unnecessary work.
+
+The real problem is not size.
+It’s blind rebuilds.
+
 ## Slide 2 — What is NX
 
-That system is Nx.
+And that’s exactly the problem Nx was built to solve.
 
 NX is a build system designed specifically for large monorepos.
 
